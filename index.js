@@ -6,6 +6,7 @@ function creatingConnection() {
     user: "amar",
     password: "12345678",
     database: "bse",
+    port : '3306'
   });
 
   connection.connect((err) => {
